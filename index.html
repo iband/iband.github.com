@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=1024,user-scalable=yes" />
+		<title>I.V.A. Software — Under Construction</title>
+    <script type="text/javascript" charset="utf-8" src="js/prototype.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/scriptaculous.js"></script>
+		<style type="text/css" media="screen">
+			@font-face {
+				font-family: 'ChunkFiveRegular';
+				src: url("/construction/Chunkfive.eot");
+				src: local('ChunkFive Regular'), local('ChunkFive'), url("/construction/Chunkfive.ttf") format('truetype');
+			}
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			body {
+				font-family: Georgia, serif;
+				background-color: #eee;
+				text-align: center;
+			}
+			h1 {
+				font-family: ChunkFiveRegular, Georgia, serif;
+				font-weight: normal;
+				font-size: 4em;
+				color: #462216;
+				text-shadow: #ECB36F 0px 1px 2px;
+				line-height: 143px;
+				height: 132px;
+				opacity: 0.9;
+			}
+			p {
+				color: #666;
+				text-shadow: #fff 0px 1px 0px;
+			}
+			.tag {
+				font-size: 1.1em;
+				font-variant: small-caps;
+				letter-spacing: 5px;
+				margin-bottom: 0.3em;
+				text-transform: lowercase;
+			}
+			.tag em {
+				font-size: 1.2em;
+				letter-spacing: 0px;
+				font-weight: bold;
+				font-variant: normal;
+				font-style: italic;
+				text-transform: none;
+			}
+			.info {
+				font-size: 0.8em;
+				margin-top: 2em;
+				font-style: italic;
+				margin-bottom: 20px;
+				line-height: 1.6em;
+			}
+			.contact {
+				font-size: 0.8em;
+				margin-top: 2em;
+				word-spacing: 5px;
+				font-weight: bold;
+				font-style: italic;
+			}
+			a:hover, .contact a {
+				text-decoration: none;
+			}
+			.contact a:hover {
+				text-decoration: underline;
+			}
+			#container {
+				margin-top: 150px;
+			}
+			a {
+				color: #333;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<p class="tag">The <em>internet home</em> of <em>Vitaly Ishkulov</em> is currently</p>
+			<!-- Анимация -->
+			<div class="arrow" id="arrow" style="position:relative;background:url(/construction/construction3.png);repeat:none;width:100%;height:128px;">
+					<h1>Under Construction</h1>
+			</div>
+			<p class="tag">and will be back with a <em>fresh new design</em> shortly.</p>
+			<p class="contact"><script type="text/javascript" language="javascript">
+			
+			
+			<!--
+			{ coded = "pPG@Pp3-ZsFG.Bst"
+			  key = "zmRANQePdrIV9WS3KtuHD7ow8EMX1vJf5GTLjls06OcxypgFYhkUCiZ4bqBn2a"
+			  shift=coded.length
+			  link=""
+			  for (i=0; i<coded.length; i++) {
+			    if (key.indexOf(coded.charAt(i))==-1) {
+			      ltr = coded.charAt(i)
+			      link += (ltr)
+			    }
+			    else {     
+			      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+			      link += (key.charAt(ltr))
+			    }
+			  }
+			document.write("<a href='mailto:"+link+"'>email</a>")
+			}
+			//-->
+			
+			</script>
+			 · <a href="http://twitter.com/iband">twitter</a></p>
+			<p class="info">In the meantime, why don&rsquo;t you make sure you have a<br  /> <a href="http://www.webstandards.org/">standards-compliant</a> web browser, like <a href="http://www.google.com/chrome/">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a>, or <a href="http://www.mozilla.com/en-US/firefox/firefox.html">Firefox</a>?<!--[if IE]><br />(Internet Explorer doesn&rsquo;t count.)<![endif]--></p>
+		</div>
+		
+    <script type="text/javascript" charset="utf-8">
+       
+        
+/*        window.onload = function(){
+        	arrow = $("arrow");
+            window.setInterval(function() {
+            i++;
+            if(i>452) i=0;
+            realx=i/4;
+            x=parseInt(realx);
+            f=parseInt((realx-parseInt(realx))*4);
+            arrow.style.backgroundPosition=x+"px "+(-f*128-1)+"px";
+            },30);
+        } 
+*/        
+        window.onload = function(){
+            arrow = $("arrow");
+            s= arrow.style;
+				var f = function() {
+           i++;
+           if(i>452) i=0;
+           realx=i>>2;
+           //x=parseInt(realx);
+           f=parseInt((realx-parseInt(realx))<<2);
+           s.backgroundPosition=parseInt(realx)+"px "+(-f*128-1)+"px";
+           }
+           window.setInterval(f,11);
+        }
+    </script>
+    
+    <!-- Observer app -->
+		<script type="text/javascript" src="http://www.observerapp.com/record.js"></script>
+		<script type="text/javascript">
+		try { Observerapp.record("4c9b9f0431ded9fa110052ed"); } catch(e) {};
+		</script>
+	</body>
+</html>
