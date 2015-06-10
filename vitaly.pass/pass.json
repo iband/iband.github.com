@@ -1,10 +1,10 @@
 {
-  "formatVersion" : 1.3,
+  "formatVersion" : 1.4,
   "passTypeIdentifier" : "pass.com.iva-soft.vcard",
   "serialNumber" : "0",
   "teamIdentifier" : "DFED5TVV4E",
   "barcode" : {
-    "message" : "https://iband.github.io/vitaly.pkpass",
+    "message" : "http://iband.github.io/vitaly.pkpass",
     "format" : "PKBarcodeFormatPDF417",
     "messageEncoding" : "iso-8859-1"
   },
