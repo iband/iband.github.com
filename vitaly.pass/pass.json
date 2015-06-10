@@ -1,0 +1,64 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.iva-soft.vcard",
+  "serialNumber" : "0",
+  "teamIdentifier" : "DFED5TVV4E",
+  "barcode" : {
+    "message" : "https://iband.github.io/vitaly.pass",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Caerus Innotech",
+  "description" : "Vitaly Ishkulov's Card",
+  "locations" : [
+          {"latitude" : 37.784, "longitude" : -122.40, "relevantText": "Vitaly Ishkulov"}
+      ],
+  "logoText" : "App Universe",
+  "foregroundColor" : "rgb(104, 10, 161)",//"rgb(9, 80, 160)",
+  "backgroundColor" : "rgb(255, 255, 255)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "name",
+        "label" : "NAME",
+        "value" : "Vitaly Ishkulov"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "title",
+        "label" : "TITLE",
+        "value" : "Founder"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "email",
+        "label" : "EMAIL",
+        "value" : "vit@iva-soft.com"
+      }
+    ],
+    "backFields" : [
+      {
+        "label" : "NAME",
+        "key" : "nameBack",
+        "value" : "Vitaly Ishkulov, Caerus Innotech"
+      },
+      {
+        "label" : "EMAIL",
+        "key" : "emailBack",
+        "value" : "vit@iva-soft.com"
+      },
+      {
+        "label" : "LINKEDIN",
+        "key" : "linkedinBack",
+        "value" : "https://linkedin.com/in/iband",
+      },
+      {
+        "label" : "WEB",
+        "key" : "webBack",
+        "value" : "http://iva-soft.com"
+      }
+    ]
+  }
+}
