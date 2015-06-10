@@ -4,11 +4,8 @@
   "serialNumber" : "0",
   "teamIdentifier" : "DFED5TVV4E",
   "barcode" : {
-<<<<<<< HEAD
     "message" : "https://iband.github.io/vitaly.pass",
-=======
     "message" : "http://iva-soft.com/shared/vitaly.pkpass",
->>>>>>> 189d3d17f9da243ed5ba3fa3dbe5bd7edad54f64
     "format" : "PKBarcodeFormatPDF417",
     "messageEncoding" : "iso-8859-1"
   },
