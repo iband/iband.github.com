@@ -1,5 +1,5 @@
 {
-  "formatVersion" : 1.5,
+  "formatVersion" : 1,
   "passTypeIdentifier" : "pass.com.iva-soft.vcard",
   "serialNumber" : "0",
   "teamIdentifier" : "DFED5TVV4E",
@@ -10,9 +10,6 @@
   },
   "organizationName" : "Caerus Innotech",
   "description" : "Vitaly Ishkulov's Card",
-  "locations" : [
-          {"latitude" : 37.784, "longitude" : -122.40, "relevantText": "Vitaly Ishkulov"}
-      ],
   "logoText" : " ",
   "foregroundColor" : "rgb(144, 144, 148)",
   "backgroundColor" : "rgb(255, 255, 255)",
