@@ -1,10 +1,10 @@
 {
-  "formatVersion" : 1.4,
+  "formatVersion" : 1.5,
   "passTypeIdentifier" : "pass.com.iva-soft.vcard",
   "serialNumber" : "0",
   "teamIdentifier" : "DFED5TVV4E",
   "barcode" : {
-    "message" : "http://iband.github.io/vitaly.pkpass",
+    "message" : "https://iband.github.io/vitaly.pkpass",
     "format" : "PKBarcodeFormatPDF417",
     "messageEncoding" : "iso-8859-1"
   },
@@ -13,7 +13,7 @@
   "locations" : [
           {"latitude" : 37.784, "longitude" : -122.40, "relevantText": "Vitaly Ishkulov"}
       ],
-  "logoText" : "",
+  "logoText" : " ",
   "foregroundColor" : "rgb(144, 144, 148)",
   "backgroundColor" : "rgb(255, 255, 255)",
   "generic" : {
