@@ -48,13 +48,13 @@
         "value" : "vit@iva-soft.com"
       },
       {
-        "key" : "twitter",
+        "key" : "twitterBack",
         "label" : "TWITTER",
         "value" : "@iband",
         "attributedValue" : "<a href='twitter://iband'>@iband</a>"
       },
       {
-        "key" : "facebook",
+        "key" : "facebookBack",
         "label" : "FACEBOOK",
         "value" : "Vitaly Ishkulov",
         "attributedValue" : "<a href='fb://profile/1511055239'>fb.com/vit.ishkulov</a>"
@@ -62,12 +62,14 @@
       {
         "label" : "LINKEDIN",
         "key" : "linkedinBack",
-        "value" : "https://linkedin.com/in/iband"
+        "value" : "linkedin.com/in/iband",
+"attributedValue" : "<a href='https://linkedin.com/in/iband'>linkedin.com/in/iband</a>"
       },
       {
         "label" : "WEB",
         "key" : "webBack",
-        "value" : "http://iva-soft.com"
+        "value" : "iva-soft.com",
+        "attributedValue" : "<a href='http://iva-soft.com'>iva-soft.com</a>"
       }
     ]
   }
