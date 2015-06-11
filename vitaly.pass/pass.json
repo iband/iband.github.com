@@ -4,6 +4,7 @@
   "serialNumber" : "0",
   "teamIdentifier" : "DFED5TVV4E",
   "barcode" : {
+    "altText" : "Scan code to add to your Passbook",
     "message" : "https://iband.github.io/vitaly.pkpass",
     "format" : "PKBarcodeFormatPDF417",
     "messageEncoding" : "iso-8859-1"
@@ -45,6 +46,18 @@
         "label" : "EMAIL",
         "key" : "emailBack",
         "value" : "vit@iva-soft.com"
+      },
+      {
+        "key" : "twitter",
+        "label" : "TWITTER",
+        "value" : "@iband",
+        "attributedValue" : "<a href='twitter://iband'>@iband</a>"
+      },
+      {
+        "key" : "facebook",
+        "label" : "FACEBOOK",
+        "value" : "Vitaly Ishkulov",
+        "attributedValue" : "<a href='fb://profile/1511055239'>fb.com/vit.ishkulov</a>"
       },
       {
         "label" : "LINKEDIN",
